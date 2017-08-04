@@ -1,4 +1,11 @@
 # [opsu!](https://itdelatrisu.github.io/opsu/)
+## Changes in this fork
+This fork attempts to change the scoring system in order to make it more preferable
+to me, for example, not scoring an S for a map unless you full combo.
+
+I've left the rest of this readme as-is.
+
+## About
 **opsu!** is an unofficial open-source client for the rhythm game
 [osu!](https://osu.ppy.sh/), written in Java using
 [Slick2D](http://slick.ninjacave.com/) and  [LWJGL](http://lwjgl.org/)
