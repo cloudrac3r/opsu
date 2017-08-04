@@ -1425,8 +1425,8 @@ public class GameData {
 	 * @param color the slider color
 	 * @param expand whether or not the hit result animation should expand
 	 */
-	public void sendSliderStartResult(int time, float x, float y, Color color, boolean expand) {
-		hitResultList.add(new HitObjectResult(time, HIT_ANIMATION_RESULT, x, y, color, HitObjectType.CIRCLE, null, expand, true));
+	public void sendSliderStartResult(int time, int result, float x, float y, Color color, boolean expand) {
+		hitResultList.add(new HitObjectResult(time, result, x, y, color, HitObjectType.CIRCLE, null, expand, true));
 	}
 
 	/**
